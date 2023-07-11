@@ -239,3 +239,16 @@ a{
 .offer-btn{
     margin: 10px 0;
 }
+
+
+/* Instagram Section */
+.insta-gallery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding: 24px 0;
+}
+.gallery-item img{
+    width: 250px;
+}
