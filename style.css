@@ -167,6 +167,9 @@ a {
 
 
 /* feature sectoin */
+.feature-section{
+    padding-bottom: 24px;
+}
 .feature-content {
     display: flex;
     justify-content: space-between;
@@ -323,4 +326,26 @@ a {
     margin: 0 10px;
     font-size: 16px;
     font-weight: 400;
+}
+
+
+
+/* Footer section */
+footer{
+    background-color: #111010;
+    padding: 120px 0;
+    color: white;
+}
+.footer-title{
+    color: white;
+}
+.footer-description{
+    color: white;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff66;
+    font-size: 18px;
 }
