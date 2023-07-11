@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* navbar section */
+.navbar{
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.navbar-logo{
+    display: flex;
+    align-items: center;
+}
+.navbar-logo img{
+    width: 50px;
+    margin-right: 10px;
+}
+.navbar-logo h1{
+    color: #E55473;
+    font-size: xx-large;
+}
+.navbar-menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar a{
+    color: #272727;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: #E55473;
+}
+.nav-lastitem a{
+    color: #E55473;
+    border: 2px solid #E55473;
+    border-radius: 5px;
+    background-color: #e5547305;
+    padding: 12px 25px;
+}
+.nav-lastitem a:hover{
+    background-color: #e5547324;
+}
