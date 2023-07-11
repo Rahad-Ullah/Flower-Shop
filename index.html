@@ -10,17 +10,17 @@
     <header>
         <!-- Navigation Bar -->
         <nav class="navbar">
-            <div class="navbar-logo">
-                <img src="asset/logo.png" alt="">
-                <h1>Flower Shop</h1>
-            </div>
+                <div class="navbar-logo">
+                    <img src="asset/logo.png" alt="">
+                    <h1>Flower Shop</h1>
+                </div>
             <div class="navbar-menu">
                 <ul>
                     <li class="nav-item"><a href="#">Home</a></li>
                     <li class="nav-item"><a href="#">Products</a></li>
                     <li class="nav-item"><a href="#">Offers</a></li>
-                    <li class="nav-item"><a href="#">Contact</a></li>
-                    <li class="nav-lastitem"><a href="#">Login</a></li>
+                    <li class="nav-item"><a href="#">Big Sale</a></li>
+                    <li class="nav-lastitem"><a href="#"><i class="fa-solid fa-bag-shopping fa-fade"></i> Cart</a></li>
                 </ul>
             </div>
         </nav>
@@ -31,7 +31,7 @@
                 <div class="banner-content">
                     <h1 class="banner-title">Let's make <br> beautiful flowers a <br> part of your life.</h1>
                     <p class="banner-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
-                    <button class="btn btn-banner">Shop Now</button>
+                    <button class="btn"><i class="fa-solid fa-cart-shopping fa-bounce"></i> Shop Now</button>
                 </div>
                 <div class="banner-img">
                     <img src="asset/pngwing 10.png" alt="cover-img">
@@ -41,7 +41,7 @@
     </header>
     <main>
         <!-- Feature Section -->
-        <div class="feature-section margin">
+        <section class="feature-section margin">
             <h2 class="section-title">Our Featured Flowers</h2>
             <p class="section-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
             <div class="feature-content">
@@ -64,8 +64,10 @@
                     <h3 class="feature-title">Pink Flower Tree</h3>
                 </div>
             </div>
-        </div>
-        <div class="service-section margin">
+        </section>
+
+        <!-- Service Section -->
+        <section class="service-section margin">
             <div class="service-box">
                 <img src="asset/Group 57.png" alt="service">
                 <h4 class="service-title">Same Day Delivery. Click & Collect.</h4>
@@ -78,19 +80,23 @@
                 <img src="asset/Group 59.png" alt="service">
                 <h4 class="service-title">24/7 Free Support.</h4>
             </div>
-        </div>
+        </section>
+
+        <!-- Offer Section -->
         <section class="offer-section">
             <div class="offer-container">
                 <div class="offer-content">
                     <h2 class="offer-title section-title">Hot Deal ! Sale Up To 25% <span class="primary">Off</span></h2>
                     <p class="offer-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                    <button class="btn offer-btn">Sign Up</button>
+                    <button class="btn offer-btn"><i class="fa-solid fa-right-to-bracket fa-beat"></i> Sign Up</button>
                 </div>
                 <div class="offer-image">
                     <img src="asset/pngwing 8.png" alt="offer">
                 </div>
             </div>
         </section>
+
+        <!-- Instagram Section -->
         <section class="instagram-section margin">
             <h2 class="section-title">Instagram</h2>
             <p class="section-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -109,19 +115,66 @@
                 </div>
             </div>
         </section>
+
+        <!-- Newsletter Section -->
         <section class="newsletter margin">
             <h2 class="section-title">Get The Latest Deals</h2>
             <p class="section-description">$30 coupon for first shopping</p>
             <div class="submit-form">
                 <input type="email" name="" id="" placeholder="Enter your email here....">
-                <button type="submit" class="btn">Submit</button>
+                <button type="submit" class="btn"><i class="fa-regular fa-paper-plane fa-beat"></i> Submit</button>
             </div>
         </section>
     </main>
+
+    <!-- Footer Section -->
     <footer>
-        <h2 class="section-title footer-title"><span class="primary">Flower</span>Shop</h2>
-        <p class="section-description footer-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        <div class="footer-container">
+            <div class="footer-box box-1">
+                <div class="footer-logo">
+                    <img src="asset/logo.png" alt="">
+                    <h2 class="footer-title"><span class="primary">Flower</span>Shop</h2>
+                </div>
+                <p class="footer-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>      
+                <div class="social-link">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="#">Popular Products</a></li>
+                    <li><a href="#">Big Sale</a></li>
+                    <li><a href="#">News and Article</a></li>
+                    <li><a href="#">Legal Notice</a></li>
+                </ul>
+            </div>
+            <div class="footer-box">
+                <h3>Supports</h3>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-box">
+                <h3>Contact Information</h3>
+                <ul>
+                    <li>Feel free to contact & reach us !!</li>
+                    <li><i class="fa-solid fa-location-dot"></i> 3557 Derek Drive, Orlando, Florida</li>
+                    <li><i class="fa-solid fa-phone"></i> +1(456)657-887</li>
+                    <li><a href="#"><i class="fa-solid fa-envelope"></i> sales@flowershop.com</a></li>
+                </ul>
+            </div>
+        </div>
         <small class="copyright">@2020-2023, FlowerShop.com | All rights reserved. </small>
     </footer>
+
+    <!-- Font-awesome Kit -->
+    <script src="https://kit.fontawesome.com/9c87656713.js" crossorigin="anonymous"></script>
 </body>
 </html>
