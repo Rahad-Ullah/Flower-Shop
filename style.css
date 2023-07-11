@@ -205,3 +205,37 @@ a{
     margin-top: 24px;
     font-weight: 600;
 }
+
+
+
+/* offer section */
+.offer-section{
+    background-color: #e554731a;
+    padding: 80px 0;
+}
+.offer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+}
+.offer-content{
+    text-align: center;
+    width: 50%;
+}
+.offer-description{
+    margin: 24px 0;
+}
+.offer-image{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offer-image img{
+    width: 280px;
+}
+.offer-btn{
+    margin: 10px 0;
+}
