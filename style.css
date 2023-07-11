@@ -13,7 +13,7 @@
 .bg-primary{
     background: #e554731a;
 }
-h1, h2, h3{
+h1, h2, h3, h4{
     color: #272727;
     font-weight: 800;
 }
@@ -154,7 +154,7 @@ a{
 .feature-box h3{
     font-weight: 700;
     text-decoration: underline;
-    margin: 25px 0;
+    padding: 25px 0;
 }
 .feature-img{
     width: 100%;
@@ -179,4 +179,29 @@ a{
 }
 .feature-3{
     background-color: #477D1126;
+}
+
+
+
+/* service section */
+.service-section{
+    background-color: #2727270D;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 85px 100px;
+    margin: 130px auto;
+}
+.service-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.service-box img{
+    width: 88px;
+}
+.service-box h4{
+    margin-top: 24px;
+    font-weight: 600;
 }
